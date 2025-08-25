@@ -19,7 +19,7 @@ public class opd_time {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "opd_seq")
     @SequenceGenerator(name = "opd_seq", sequenceName = "opd_sequence", allocationSize = 1)
     @Column(name="opd_id", length = 255)
-    private Long id;
+    private long id;
     @Column(name="opd_day",length=255,nullable= false)
     private Date day;
     @Column(name="opd_start_time",length=255,nullable= false)
@@ -31,4 +31,11 @@ public class opd_time {
     @JoinColumn(name = "hospital_id", nullable = false)
     private Hospital hospital;
 
+    public opd_time(Date day, Time startTime, Time endTime, long hospitalId) {
+        this.day = day;
+        this.start_time = startTime;
+        this.end_time = endTime;
+        this.hospital = new Hospital();
+        this.hospital.setId(hospitalId);
+    }
 }

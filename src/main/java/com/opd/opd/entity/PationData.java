@@ -5,12 +5,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name="PDATA")
-public class PData {
+public class PationData {
 
 
     @Id
@@ -31,7 +33,10 @@ public class PData {
     @Column(name="password",length=255,nullable = false)
     private String password;
 
-    public PData(String name, long nic_no, int age, String email, int mobile_no, String password) {
+    @OneToMany(mappedBy = "pationData", cascade = CascadeType.ALL)
+    private List<anotherPationData> anotherPations;
+
+    public PationData(String name, long nic_no, int age, String email, int mobile_no, String password) {
         this.name = name;
         this.nic_no = nic_no;
         this.age = age;

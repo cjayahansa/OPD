@@ -3,7 +3,7 @@ package com.opd.opd.Service.IMPL;
 import com.opd.opd.DTO.reqwest.PreqwestDTO;
 import com.opd.opd.Repo.Repostity;
 import com.opd.opd.Service.Pservice;
-import com.opd.opd.entity.PData;
+import com.opd.opd.entity.PationData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ public class pserviceIMPL implements Pservice {
 
     @Override
     public String savePdata(PreqwestDTO preqwestDTO) {
-        PData pData = new PData (
+        PationData pationData = new PationData(
                 preqwestDTO.getName(),
                 preqwestDTO.getNic_no(),
                 preqwestDTO.getAge(),
@@ -23,9 +23,9 @@ public class pserviceIMPL implements Pservice {
                 preqwestDTO.getPassword()
         );
         // Save entity to database
-     PData savedPData =  repostity.save(pData);
+     PationData savedPationData =  repostity.save(pationData);
         // Return a success message
-        return "PData saved successfully for: " + savedPData.getId();
+        return "PData saved successfully for: " + savedPationData.getId();
     }
     @Override
     public String deletePdata(int pid) {
@@ -40,8 +40,8 @@ public class pserviceIMPL implements Pservice {
     @Override
     public String getpationpassword(long nicNo) {
         if(repostity.existsByNicNo(nicNo)){
-            PData pData = repostity.findByNicNo(nicNo);
-            return "Password for NIC No " + nicNo + " is: " + pData.getPassword();
+            PationData pationData = repostity.findByNicNo(nicNo);
+            return "Password for NIC No " + nicNo + " is: " + pationData.getPassword();
         } else {
             return "No PData found with NIC No: " + nicNo;
         }

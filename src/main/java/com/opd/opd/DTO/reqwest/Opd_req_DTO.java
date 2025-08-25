@@ -13,9 +13,9 @@ import java.sql.Time;
 @NoArgsConstructor
 public class Opd_req_DTO {
 
-    private Date day;
-    private Time start_time;
-    private Time end_time;
-    private Long hospitalId;
+        private String day;
+        private String start_time;
+        private String end_time;
+        private long hospitalId;
 
 }
