@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -32,4 +34,21 @@ public class anotherPationData {
     @ManyToOne
     @JoinColumn(name = "pid", nullable = false)
     private PationData pationData;
+
+    @ManyToMany
+    @JoinTable(
+            name = "another_pation_clinic",
+            joinColumns = @JoinColumn(name = "another_pation_id"),
+            inverseJoinColumns = @JoinColumn(name = "clinic_time_id")
+    )
+    private List<Clinic_time> clinicTimes;
+
+    public anotherPationData(String name, int age, Boolean maride, Yourconnection yourconnection, long pationDataId) {
+        Name = name;
+        this.age = age;
+        this.maride = maride;
+        this.yourconnection = yourconnection;
+        this.pationData = new PationData();
+        this.pationData.setId((int) pationDataId);
+    }
 }

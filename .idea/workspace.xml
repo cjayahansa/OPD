@@ -4,27 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e16bae32-8c1b-46a6-b3bb-6b7356d85399" name="Changes" comment="add hospital and pation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/OpdServiceIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/OpdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/anotherPationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/enums/Yourconnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="e16bae32-8c1b-46a6-b3bb-6b7356d85399" name="Changes" comment="add opd time part">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Controler/admincontroller/AnotherPationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Controler/admincontroller/ClinicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/DTO/reqwest/AnotherPation_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/DTO/reqwest/Clinic_req_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/AnotherPationRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/ClinicRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/AnotherPationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/AnotherPationServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/ClinicServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/clinicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/Clinic_time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/enums/ClinicType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/90fc8dd1-2988-474d-8eb2-27c529e4e94b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/90fc8dd1-2988-474d-8eb2-27c529e4e94b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/Controler/admincontroller/Opd_time_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Controler/admincontroller/Opd_time_Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/DTO/reqwest/Opd_req_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/DTO/reqwest/Opd_req_DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/Repostity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/Repostity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/Repostity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/PRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/pserviceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/pserviceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/PData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/PationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/opd_time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/opd_time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/Controler/admincontroller/Opd_time_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/Controler/admincontroller/Opd_time_Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/DTO/reqwest/Opd_req_DTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/DTO/reqwest/Opd_req_DTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/Repo/Repostity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/Repo/Repostity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/Service/IMPL/pserviceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/Service/IMPL/pserviceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/entity/PData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/entity/opd_time.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/entity/opd_time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/PationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/PationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/anotherPationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/anotherPationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/entity/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/entity/Hospital.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,36 +75,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.OpdApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.OpdApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/Hospital/opd&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OpdApplication.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.OpdApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hp/Desktop/Hospital/opd",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="OpdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -146,6 +147,14 @@
       <workItem from="1755830254946" duration="303000" />
       <workItem from="1756086722494" duration="17408000" />
       <workItem from="1756128074424" duration="4936000" />
+      <workItem from="1756133443543" duration="309000" />
+      <workItem from="1756133771460" duration="4000" />
+      <workItem from="1756134287166" duration="42000" />
+      <workItem from="1756438699411" duration="2332000" />
+      <workItem from="1756611862121" duration="1249000" />
+      <workItem from="1756646301211" duration="1211000" />
+      <workItem from="1756702050583" duration="1162000" />
+      <workItem from="1758613047626" duration="12143000" />
     </task>
     <task id="LOCAL-00001" summary="add hospital and pation">
       <option name="closed" value="true" />
@@ -171,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756104165283</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add opd time part">
+      <option name="closed" value="true" />
+      <created>1756133532496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756133532496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +207,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add hospital and pation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hospital and pation" />
+    <MESSAGE value="add opd time part" />
+    <option name="LAST_COMMIT_MESSAGE" value="add opd time part" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -36,6 +36,15 @@ public class PationData {
     @OneToMany(mappedBy = "pationData", cascade = CascadeType.ALL)
     private List<anotherPationData> anotherPations;
 
+    @ManyToMany
+    @JoinTable(
+            name = "pation_clinic",
+            joinColumns = @JoinColumn(name = "pid"),
+            inverseJoinColumns = @JoinColumn(name = "clinic_time_id")
+    )
+    private List<Clinic_time> clinicTimes;
+
+
     public PationData(String name, long nic_no, int age, String email, int mobile_no, String password) {
         this.name = name;
         this.nic_no = nic_no;

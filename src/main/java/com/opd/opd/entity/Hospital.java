@@ -33,6 +33,14 @@ public class Hospital {
     //orphanRemoval = true: If an opd_time is removed from the hospital's opdTimes list, JPA will automatically delete that opd_time from the database. This keeps the database in sync with the entity relationships. //
     private List<opd_time> opdTimes;
 
+    @ManyToMany
+    @JoinTable(
+            name = "hospital_clinic",
+            joinColumns = @JoinColumn(name = "hospital_id"),
+            inverseJoinColumns = @JoinColumn(name = "clinic_time_id")
+    )
+    private List<Clinic_time> clinicTimes;
+
 
     public Hospital(String name, String address, long contact, String type) {
         this.name = name;
