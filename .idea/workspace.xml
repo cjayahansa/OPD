@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e16bae32-8c1b-46a6-b3bb-6b7356d85399" name="Changes" comment="add opd time part">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Controler/admincontroller/AnotherPationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Controler/admincontroller/ClinicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/DTO/reqwest/AnotherPation_DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/DTO/reqwest/Clinic_req_DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/AnotherPationRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/ClinicRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/AnotherPationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/AnotherPationServiceIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/ClinicServiceIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/clinicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/Clinic_time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/enums/ClinicType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90fc8dd1-2988-474d-8eb2-27c529e4e94b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/90fc8dd1-2988-474d-8eb2-27c529e4e94b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/Repostity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Repo/PRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/pserviceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/Service/IMPL/pserviceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/PationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/PationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/anotherPationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opd/opd/entity/anotherPationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/entity/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/entity/Hospital.class" afterDir="false" />
+    <list default="true" id="e16bae32-8c1b-46a6-b3bb-6b7356d85399" name="Changes" comment="add clinic and another pation">
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/Repo/Repostity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opd/opd/Service/IMPL/pserviceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opd/opd/Service/IMPL/pserviceIMPL.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +136,7 @@
       <workItem from="1756611862121" duration="1249000" />
       <workItem from="1756646301211" duration="1211000" />
       <workItem from="1756702050583" duration="1162000" />
-      <workItem from="1758613047626" duration="12143000" />
+      <workItem from="1758613047626" duration="12547000" />
     </task>
     <task id="LOCAL-00001" summary="add hospital and pation">
       <option name="closed" value="true" />
@@ -188,7 +170,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756133532496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add clinic and another pation">
+      <option name="closed" value="true" />
+      <created>1758626551295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758626551295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add clinic and another pation">
+      <option name="closed" value="true" />
+      <created>1758626575981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758626575981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add hospital and pation" />
     <MESSAGE value="add opd time part" />
-    <option name="LAST_COMMIT_MESSAGE" value="add opd time part" />
+    <MESSAGE value="add clinic and another pation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add clinic and another pation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
